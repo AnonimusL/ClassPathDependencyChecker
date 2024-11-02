@@ -18,4 +18,4 @@ This project is a task for the JetBrains Internship program, aimed at developing
 ## Getting Started
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/ClassPathDependencyChecker.git
+   git clone https://github.com/AnonimusL/ClassPathDependencyChecker.git
