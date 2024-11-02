@@ -211,9 +211,9 @@ public class ClassPathDependencyChecker {
         ClassPathDependencyChecker checker = new ClassPathDependencyChecker();
         try {
             boolean allDependenciesResolved = checker.checkDependencies(mainClassName, jarPaths);
-            System.out.println(allDependenciesResolved ? "TRUE" : "FALSE");
+            System.out.println(allDependenciesResolved ? true : false);
         } catch (IOException e) {
-            System.out.println("FALSE");
+            System.out.println(false);
             System.err.println("Error analyzing class dependencies: " + e.getMessage());
         }
     }
